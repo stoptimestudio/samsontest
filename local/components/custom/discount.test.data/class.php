@@ -53,11 +53,11 @@ class CheckDiscountManager extends CBitrixComponent
 			throw new \Exception($user->LAST_ERROR);
 	}
 
-	private function generateEmail(): ?string {
+	private function generateEmail(): string {
 		return randString(5, "abcdefghijklnmopqrstuvwxyz").randString(2, "0123456789").'@site.com';
 	}
 
-	private function generatePassword(): ?string {
+	private function generatePassword(): string {
 		return randString(10, ["abcdefghijklnmopqrstuvwxyz", "ABCDEFGHIJKLNMOPQRSTUVWXYZ", "0123456789", "!@#\$%^&*()"]);
 	}	
 };

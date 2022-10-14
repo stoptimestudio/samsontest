@@ -1,5 +1,6 @@
 <?if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true) die(); 
 
+$MESS["COMP_TEMPLATE_GET_EMPTY"] = "Введите код скидки";
 $MESS["COMP_TEMPLATE_GET_COUPON"] = "Купон";
 $MESS["COMP_TEMPLATE_GET_NOT_AVAILABLE"] = "Скидка недоступна";
 $MESS["COMP_TEMPLATE_GET_DESCRIPTION"] = "Введи в поле ваш уникальный код скидки и нажмите на кнопку для проверки его статуса";

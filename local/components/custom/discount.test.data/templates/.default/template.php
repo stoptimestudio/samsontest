@@ -6,7 +6,7 @@ if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true) die();
     <?if ($arResult['USERS']) {?>
         <div class="result">
             <?foreach($arResult['USERS'] as $i=>$arUser) {?>
-                <p><?=++$i?>. Login: <?=$arUser['LOGIN']?>;  Password: <?=$arUser['PASSWORD']?></p>
+                <p><?=++$i?>. <?=GetMessage('COMP_TEMPLATE_LOGIN')?>: <?=$arUser['LOGIN']?><br><?=GetMessage('COMP_TEMPLATE_PASSWORD')?>: <?=$arUser['PASSWORD']?></p>
             <?}?>
         </div>
     <?}?>

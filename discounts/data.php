@@ -8,6 +8,7 @@ $APPLICATION->SetTitle("Тестовые данные");
 	"",
 	Array(
 		"USER_COUNT" => 5,
+		"AJAX_MODE" => "Y",
 	)
 );?>
 
